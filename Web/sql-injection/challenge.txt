@@ -1,0 +1,4 @@
+This system communicates directly with database without sanitizing input.
+
+Objective:
+Find a way to access the dashboard as admin.

@@ -1,0 +1,4 @@
+The login backend contains a logic weakness in authentication flow.
+
+Goal:
+Access the admin panel without knowing the original password.

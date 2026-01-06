@@ -1,20 +1,36 @@
-# 👻 GhostShell-Baby
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00FFB2&center=true&vCenter=true&width=650&lines=Welcome+to+GhostShell-Baby;Cyber+Offense+%26+Defense+Simulation+Lab;Learn+Break+Secure" />
+</p>
 
-GhostShell-Baby is a cyber security training repository that simulates real-world attack surfaces in a controlled environment.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Operational-00ffb2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Level-Beginner--Intermediate-black?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Mode-Live+Attack+Simulation-purple?style=for-the-badge"/>
+</p>
 
-## Domains Covered
-- Web Exploitation
-- Cryptography
-- Digital Forensics
-- OSINT
-- Reverse Engineering
+---
 
-## Flag Format
-CTF{ghostshell_flag}
+## 👻 GhostShell-Baby
 
-## Usage
-Each folder contains:
-- challenge.txt – problem description
-- flag.txt – solution verification
+A cyber security simulation platform that mirrors real-world exploitation paths in a controlled ethical environment.
 
-Practice ethically. Learn deeply.
+---
+
+## ⚔️ Modules
+
+| Domain | Status |
+|-------|--------|
+| Web Exploitation | 🔴 Active |
+| Cryptography | 🟡 Building |
+| Forensics | 🟡 Building |
+| OSINT | 🟡 Building |
+| Reverse Engineering | 🟡 Building |
+
+---
+
+## 🧪 Live Web Labs
+
+```bash
+cd Web/auth-bypass
+docker build -t ghost-auth .
+docker run -p 5000:5000 ghost-auth

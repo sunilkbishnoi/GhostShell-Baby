@@ -1,0 +1,6 @@
+import sqlite3
+con=sqlite3.connect("users.db")
+cur=con.cursor()
+cur.execute("CREATE TABLE users(id INTEGER, username TEXT, password TEXT)")
+cur.execute("INSERT INTO users VALUES(1,'admin','Ghost@123')")
+con.commit()
