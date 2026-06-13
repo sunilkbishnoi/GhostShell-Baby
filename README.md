@@ -12,7 +12,7 @@
 
 ## 👻 GhostShell-Baby
 
-A Cyber security simulation platform that mirrors real-world exploitation paths in a controlled ethical environment.
+A Cyber Security simulation platform that mirrors real-world exploitation paths in a controlled ethical environment.
 
 ---
 
